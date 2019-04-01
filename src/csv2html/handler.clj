@@ -1,3 +1,8 @@
+;; Copyright (c) 2018-2019 Bastien Guerry <bastien.guerry@data.gouv.fr>
+
+;; SPDX-License-Identifier: EPL-2.0
+;; License-Filename: LICENSES/EPL-2.0.txt
+
 (ns csv2html.handler
   (:gen-class)
   (:require [org.httpkit.server :as http-kit]
