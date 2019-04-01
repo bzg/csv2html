@@ -54,9 +54,9 @@ want with =java -jar csv2html-x.x.x-standalone.jar=.
 
 will build the container which you can run with
 
-: ~$ CSV2HTML_EXPORTDIR="/exports/" docker run -p 4321:4321 me/csv2html
+: ~$ CSV2HTML_EXPORTDIR=/exports/ docker run -p 4321:4321 me/csv2html
 
-Note that ~CSV2HTML_EXPORTDIR="/exports/"~ is mandatory here, otherwise
+Note that =CSV2HTML_EXPORTDIR=/exports/= is mandatory here, otherwise
 your container will store HTML pages in =/tmp/= and they will be lost.
 
 * Todo
