@@ -1,5 +1,3 @@
-#+title: csv2html
-
 * What it does?
 
 csv2html converts plain csv to datatables HTML pages.
@@ -67,5 +65,4 @@ your container will store HTML pages in =/tmp/= and they will be lost.
 
 * License
 
-=csv2html= is licensed under the [[http://www.eclipse.org/legal/epl-v10.html][Eclipse Public License 1.0]], the
-same as Clojure.
+=csv2html= is licensed under the [[http://www.eclipse.org/legal/epl-v20.html][Eclipse Public License 2.0]].
